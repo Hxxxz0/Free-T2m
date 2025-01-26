@@ -20,7 +20,17 @@ Free-T2M stands out by integrating advanced frequency-domain techniques with rob
 
 ## Getting Started 🚀
 
-To get started with Free-T2M, clone the repository and follow the setup instructions in the `README.md` file. We welcome contributions and feedback to further enhance the capabilities of Free-T2M.
+To begin using Free-T2M with the MDM (Motion Diffusion Model) framework, follow these steps:
 
+1. **Set Up the MDM Environment**:  
+   First, configure the MDM environment as outlined in the official [MDM repository](https://github.com/GuyTevet/motion-diffusion-model). Ensure all dependencies and requirements are properly installed.
+
+2. **Integrate Free-T2M**:  
+   Replace the corresponding parts in the MDM folder with the files provided in the `MDM` directory of this repository. This step ensures that the frequency-enhanced components and consistency mechanisms of Free-T2M are seamlessly integrated into the MDM framework.
+
+3. **Train and Test**:  
+   Once the setup is complete, you can proceed with training and testing as described in the original MDM documentation. Free-T2M enhances the baseline MDM model, enabling more robust and precise text-to-motion generation.
+
+For detailed instructions, refer to the [MDM repository](https://github.com/GuyTevet/motion-diffusion-model) and the documentation provided in this repository. Happy experimenting! 🚀✨
 
 Feel free to explore the repository and contribute to the future of motion generation! 🚀✨
