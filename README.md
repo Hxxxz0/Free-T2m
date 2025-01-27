@@ -26,7 +26,38 @@ Free-T2M integrates advanced frequency-domain techniques and robust consistency 
 - **SOTA on StableMoFusion**: Achieved FID reduction from **0.189** to **0.051**.
 - **Human Evaluations**: Significant improvements in user preference and subjective quality assessments.
 
-![Experiment Results](Visualization/Figure/Experiment.png)
+## Evaluation Metrics for HumanML3D Dataset
+
+The table below summarizes the evaluation metrics for the HumanML3D dataset. **Red** values indicate the best results, and **Blue** values indicate the second-best results. Metrics include **FID** (lower is better), **R-Precision** (higher is better), and **Diversity** (closer to real motion is better).
+
+<div align="center">
+
+| **Method**                     | **Venue**       | **FID ↓**         | **R-Precision ↑**                | **Diversity →**    |
+|--------------------------------|-----------------|-------------------|----------------------------------|--------------------|
+|                                |                 |                   | **top1**     | **top2**     | **top3**     |                    |
+| **Real**                       | -               | 0.002 ± 0.000     | 0.511 ± 0.003 | 0.703 ± 0.003 | 0.797 ± 0.002 | 9.503 ± 0.065       |
+| **MLD**                        | CVPR 2023       | 0.473 ± 0.013     | 0.481 ± 0.003 | 0.673 ± 0.003 | 0.772 ± 0.002 | 9.724 ± 0.082       |
+| **ReMoDiffuse**                | ICCV 2023       | **0.103 ± 0.004** | **0.510 ± 0.005** | 0.698 ± 0.006 | **0.795 ± 0.004** | 9.018 ± 0.075       |
+| **MotionDiffuse**              | TPAMI 2024      | 0.630 ± 0.001     | 0.491 ± 0.001 | 0.681 ± 0.001 | 0.782 ± 0.001 | 9.410 ± 0.049       |
+| **MotionLCM**                  | ECCV 2024       | 0.467 ± 0.012     | 0.502 ± 0.003 | **0.701 ± 0.002** | **0.803 ± 0.002** | 9.361 ± 0.660       |
+| **T2M-GPT**                    | CVPR 2023       | 0.141 ± 0.005     | 0.492 ± 0.003 | 0.679 ± 0.002 | 0.775 ± 0.002 | 9.722 ± 0.082       |
+| **MDM<sub>50steps</sub>**      | ICLR 2023       | 0.544 ± 0.044     | 0.320 ± 0.005 | 0.498 ± 0.004 | 0.611 ± 0.007 | **9.559 ± 0.086**   |
+| **MDM<sub>1000steps</sub>**    | ICLR 2023       | 0.548 ± 0.085     | 0.313 ± 0.006 | 0.472 ± 0.007 | 0.601 ± 0.005 | 9.464 ± 0.067       |
+| **StableMoFusion**             | ACM MM 2024     | 0.189 ± 0.003     | 0.499 ± 0.004 | 0.680 ± 0.006 | 0.779 ± 0.007 | 9.466 ± 0.002       |
+| **Free-MDM<sub>50steps</sub>** | -               | 0.256 ± 0.045     | 0.466 ± 0.008 | 0.657 ± 0.007 | 0.757 ± 0.005 | 9.666 ± 0.080       |
+| **Free-MDM<sub>1000steps</sub>** | -             | 0.370 ± 0.030     | 0.435 ± 0.005 | 0.621 ± 0.007 | 0.722 ± 0.009 | 9.450 ± 0.066       |
+| **Free-StableMoFusion**        | -               | **0.051 ± 0.002** | **0.520 ± 0.013** | **0.707 ± 0.003** | **0.803 ± 0.006** | **9.480 ± 0.005**   |
+
+</div>
+
+---
+
+### Notes:
+- **FID ↓**: Lower values indicate better performance.
+- **R-Precision ↑**: Higher values (top1, top2, top3) indicate better alignment between text prompts and generated motion.
+- **Diversity →**: Higher values indicate the generated motions are closer to the diversity of real human motion.
+
+This table highlights the **SOTA performance** of Free-T2M, particularly with **Free-StableMoFusion**, across all metrics.
 
 ---
 
