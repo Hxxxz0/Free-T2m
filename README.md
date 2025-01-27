@@ -93,27 +93,29 @@ This horizontal layout with a scrollable table makes it easier to view the progr
 
 The following table compares Free-T2M with the MDM baseline. Free-T2M produces more realistic and semantically aligned motions:
 
-<div align="center">
-  <table>
-    <tr>
-      <th><b>Ours</b></th>
-      <th><b>Baseline</b></th>
-    </tr>
-    <tr>
-      <td><img src="More_result/MDM/Ours/00.gif" width="200"></td>
-      <td><img src="More_result/MDM/base/00.gif" width="200"></td>
-    </tr>
-    <tr>
-      <td><img src="More_result/MDM/Ours/01.gif" width="200"></td>
-      <td><img src="More_result/MDM/base/01.gif" width="200"></td>
-    </tr>
-    <tr>
-      <td><img src="More_result/MDM/Ours/02.gif" width="200"></td>
-      <td><img src="More_result/MDM/base/02.gif" width="200"></td>
-    </tr>
-  </table>
-</div>
-加个下拉条，一次显示一组
+<details>
+  <summary>Click to view comparisons</summary>
+  <div align="center">
+    <table>
+      <tr>
+        <th><b>Ours</b></th>
+        <th><b>Baseline</b></th>
+      </tr>
+      <tr>
+        <td><img src="More_result/MDM/Ours/00.gif" width="200"></td>
+        <td><img src="More_result/MDM/base/00.gif" width="200"></td>
+      </tr>
+      <tr>
+        <td><img src="More_result/MDM/Ours/01.gif" width="200"></td>
+        <td><img src="More_result/MDM/base/01.gif" width="200"></td>
+      </tr>
+      <tr>
+        <td><img src="More_result/MDM/Ours/02.gif" width="200"></td>
+        <td><img src="More_result/MDM/base/02.gif" width="200"></td>
+      </tr>
+    </table>
+  </div>
+</details>
 
 ---
 
@@ -121,26 +123,29 @@ The following table compares Free-T2M with the MDM baseline. Free-T2M produces m
 
 The table below highlights the superior performance of Free-T2M over the StableMoFusion baseline, showcasing more realistic and semantically aligned motions:
 
-<div align="center">
-  <table>
-    <tr>
-      <th><b>Ours</b></th>
-      <th><b>Baseline</b></th>
-    </tr>
-    <tr>
-      <td><img src="More_result/StableMofusion/ours/04.gif" width="200"></td>
-      <td><img src="More_result/StableMofusion/base/04.gif" width="200"></td>
-    </tr>
-    <tr>
-      <td><img src="More_result/StableMofusion/ours/03.gif" width="200"></td>
-      <td><img src="More_result/StableMofusion/base/03.gif" width="200"></td>
-    </tr>
-    <tr>
-      <td><img src="More_result/StableMofusion/ours/02.gif" width="200"></td>
-      <td><img src="More_result/StableMofusion/base/02.gif" width="200"></td>
-    </tr>
-  </table>
-</div>
+<details>
+  <summary>Click to view StableMofusion comparisons</summary>
+  <div align="center">
+    <table>
+      <tr>
+        <th><b>Ours</b></th>
+        <th><b>Baseline</b></th>
+      </tr>
+      <tr>
+        <td><img src="More_result/StableMofusion/ours/04.gif" width="200"></td>
+        <td><img src="More_result/StableMofusion/base/04.gif" width="200"></td>
+      </tr>
+      <tr>
+        <td><img src="More_result/StableMofusion/ours/03.gif" width="200"></td>
+        <td><img src="More_result/StableMofusion/base/03.gif" width="200"></td>
+      </tr>
+      <tr>
+        <td><img src="More_result/StableMofusion/ours/02.gif" width="200"></td>
+        <td><img src="More_result/StableMofusion/base/02.gif" width="200"></td>
+      </tr>
+    </table>
+  </div>
+</details>
 
 ## Getting Started 🚀
 
