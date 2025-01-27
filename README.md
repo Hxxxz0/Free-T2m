@@ -32,61 +32,43 @@ Free-T2M integrates advanced frequency-domain techniques and robust consistency 
 
 ## Denoising Process 🎥
 
-Free-T2M refines motion generation through a staged denoising process. The visualizations below illustrate the transition from noise to high-quality motion:
+Free-T2M refines motion generation through a staged denoising process. The table below illustrates the transition from noise to high-quality motion at different denoising steps:
 
-<div style="display: flex; justify-content: center; flex-wrap: wrap;">
-  <img src="Visualization/Noise/21_0.gif" width="200" style="margin: 10px;">
-  <img src="Visualization/Noise/21_10.gif" width="200" style="margin: 10px;">
-  <img src="Visualization/Noise/21_20.gif" width="200" style="margin: 10px;">
-  <img src="Visualization/Noise/21_30.gif" width="200" style="margin: 10px;">
-  <img src="Visualization/Noise/21_40.gif" width="200" style="margin: 10px;">
-  <img src="Visualization/Noise/21_50.gif" width="200" style="margin: 10px;">
-</div>
+| **Denoising Step** | **Visualization**                               |
+|--------------------|------------------------------------------------|
+| Step 50(Noise)     | <img src="Visualization/Noise/21_50.gif" width="200"> |
+| Step 40            | <img src="Visualization/Noise/21_40.gif" width="200"> |
+| Step 30            | <img src="Visualization/Noise/21_30.gif" width="200"> |
+| Step 20            | <img src="Visualization/Noise/21_20.gif" width="200"> |
+| Step 10            | <img src="Visualization/Noise/21_10.gif" width="200"> |
+| Step 0             | <img src="Visualization/Noise/21_0.gif" width="200"> |
 
 ---
 
+This table provides a clear step-by-step visualization of the denoising process, from pure noise to refined motion. Let me know if additional details are needed!
 ## Visual Comparisons 🎬
 
 ### MDM Baseline vs. Free-T2M
 
-The following GIFs compare Free-T2M with the MDM baseline. Free-T2M produces more realistic and semantically aligned motions:
+The following table compares Free-T2M with the MDM baseline. Free-T2M produces more realistic and semantically aligned motions:
 
-<div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
-  <div>
-    <p align="center"><b>Ours</b></p>
-    <img src="More_result/MDM/Ours/00.gif" width="200" style="margin: 10px;">
-    <img src="More_result/MDM/Ours/01.gif" width="200" style="margin: 10px;">
-    <img src="More_result/MDM/Ours/02.gif" width="200" style="margin: 10px;">
-  </div>
-  <div>
-    <p align="center"><b>Baseline</b></p>
-    <img src="More_result/MDM/base/00.gif" width="200" style="margin: 10px;">
-    <img src="More_result/MDM/base/01.gif" width="200" style="margin: 10px;">
-    <img src="More_result/MDM/base/02.gif" width="200" style="margin: 10px;">
-  </div>
-</div>
+| **Ours**                                       | **Baseline**                                   |
+|-----------------------------------------------|-----------------------------------------------|
+| <img src="More_result/MDM/Ours/00.gif" width="200"> | <img src="More_result/MDM/base/00.gif" width="200"> |
+| <img src="More_result/MDM/Ours/01.gif" width="200"> | <img src="More_result/MDM/base/01.gif" width="200"> |
+| <img src="More_result/MDM/Ours/02.gif" width="200"> | <img src="More_result/MDM/base/02.gif" width="200"> |
 
 ---
 
 ### StableMoFusion Baseline vs. Free-T2M
 
-Free-T2M outperforms StableMoFusion in generating more realistic and semantically aligned motions:
+The table below highlights the superior performance of Free-T2M over the StableMoFusion baseline, showcasing more realistic and semantically aligned motions:
 
-<div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
-  <div>
-    <p align="center"><b>Ours</b></p>
-    <img src="More_result/StableMofusion/ours/04.gif" width="200" style="margin: 10px;">
-    <img src="More_result/StableMofusion/ours/03.gif" width="200" style="margin: 10px;">
-    <img src="More_result/StableMofusion/ours/02.gif" width="200" style="margin: 10px;">
-  </div>
-  <div>
-    <p align="center"><b>Baseline</b></p>
-    <img src="More_result/StableMofusion/base/04.gif" width="200" style="margin: 10px;">
-    <img src="More_result/StableMofusion/base/03.gif" width="200" style="margin: 10px;">
-    <img src="More_result/StableMofusion/base/02.gif" width="200" style="margin: 10px;">
-  </div>
-</div>
-
+| **Ours**                                       | **Baseline**                                   |
+|-----------------------------------------------|-----------------------------------------------|
+| <img src="More_result/StableMofusion/ours/04.gif" width="200"> | <img src="More_result/StableMofusion/base/04.gif" width="200"> |
+| <img src="More_result/StableMofusion/ours/03.gif" width="200"> | <img src="More_result/StableMofusion/base/03.gif" width="200"> |
+| <img src="More_result/StableMofusion/ours/02.gif" width="200"> | <img src="More_result/StableMofusion/base/02.gif" width="200"> |
 ---
 
 ## Getting Started 🚀
