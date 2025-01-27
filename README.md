@@ -32,9 +32,8 @@ The table below summarizes the evaluation metrics for the HumanML3D dataset. **R
 
 <div align="center">
 
-| **Method**                     | **Venue**       | **FID ↓**         | **R-Precision ↑**                                 |
+| **Method**                     | **Venue**       | **FID ↓**         |  **Top1**      |     **Top2** |  **Top3**         |
 |--------------------------------|-----------------|-------------------|---------------------------------------------------|
-|                                |                 |                   | **top1**      | **top2**      | **top3**          |
 | **Real**                       | -               | 0.002 ± 0.000     | 0.511 ± 0.003 | 0.703 ± 0.003 | 0.797 ± 0.002     |
 | **MLD**                        | CVPR 2023       | 0.473 ± 0.013     | 0.481 ± 0.003 | 0.673 ± 0.003 | 0.772 ± 0.002     |
 | **ReMoDiffuse**                | ICCV 2023       | 0.103 ± 0.004     | 0.510 ± 0.005 | 0.698 ± 0.006 | 0.795 ± 0.004     |
@@ -50,51 +49,7 @@ The table below summarizes the evaluation metrics for the HumanML3D dataset. **R
 
 </div>
 
-<div style="overflow-x: auto; white-space: nowrap; width: 100%; text-align: center;">
-  <table align="center" style="border-collapse: collapse; margin: 0 auto; white-space: nowrap;">
-    <thead>
-      <tr>
-        <th style="border: 1px solid #000; padding: 8px;">Method</th>
-        <th style="border: 1px solid #000; padding: 8px;">Venue</th>
-        <th style="border: 1px solid #000; padding: 8px;">FID ↓</th>
-        <th style="border: 1px solid #000; padding: 8px;">R-Precision ↑</th>
-        <th style="border: 1px solid #000; padding: 8px;">top1</th>
-        <th style="border: 1px solid #000; padding: 8px;">top2</th>
-        <th style="border: 1px solid #000; padding: 8px;">top3</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td style="border: 1px solid #000; padding: 8px;">Real</td>
-        <td style="border: 1px solid #000; padding: 8px;">-</td>
-        <td style="border: 1px solid #000; padding: 8px;">0.002 ± 0.000</td>
-        <td style="border: 1px solid #000; padding: 8px;">0.511 ± 0.003</td>
-        <td style="border: 1px solid #000; padding: 8px;">0.703 ± 0.003</td>
-        <td style="border: 1px solid #000; padding: 8px;">0.797 ± 0.002</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid #000; padding: 8px;">MLD</td>
-        <td style="border: 1px solid #000; padding: 8px;">CVPR 2023</td>
-        <td style="border: 1px solid #000; padding: 8px;">0.473 ± 0.013</td>
-        <td style="border: 1px solid #000; padding: 8px;">0.481 ± 0.003</td>
-        <td style="border: 1px solid #000; padding: 8px;">0.673 ± 0.003</td>
-        <td style="border: 1px solid #000; padding: 8px;">0.772 ± 0.002</td>
-      </tr>
-      <!-- 其他表格数据 -->
-      <tr>
-        <td style="border: 1px solid #000; padding: 8px;">Free-StableMoFusion</td>
-        <td style="border: 1px solid #000; padding: 8px;">-</td>
-        <td style="border: 1px solid #000; padding: 8px;"><b>0.051 ± 0.002</b></td>
-        <td style="border: 1px solid #000; padding: 8px;"><b>0.520 ± 0.013</b></td>
-        <td style="border: 1px solid #000; padding: 8px;"><b>0.707 ± 0.003</b></td>
-        <td style="border: 1px solid #000; padding: 8px;"><b>0.803 ± 0.006</b></td>
-      </tr>
-    </tbody>
-  </table>
-</div>
 
-
----
 
 ### Notes:
 - **FID ↓**: Lower values indicate better performance.
