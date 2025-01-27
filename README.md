@@ -19,7 +19,7 @@ Free-T2M stands out by integrating advanced frequency-domain techniques with rob
 - **SOTA on StableMoFusion**: Reduces FID from **0.189** to **0.051**, establishing a new benchmark within the diffusion architecture.
 - **Human Subjective Evaluations**: Demonstrates substantial improvements in human subjective evaluations, further validating its superiority.
 
-![Experiment](Visualization/Figure/[Experiment.png)
+![Experiment](Visualization/Figure/Experiment.png)
 
 ## Denoising Process Demonstration 🎥
 
