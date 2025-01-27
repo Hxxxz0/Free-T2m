@@ -18,6 +18,21 @@ Free-T2M stands out by integrating advanced frequency-domain techniques with rob
 - **SOTA on StableMoFusion**: Reduces FID from **0.189** to **0.051**, establishing a new benchmark within the diffusion architecture.
 - **Human Subjective Evaluations**: Demonstrates substantial improvements in human subjective evaluations, further validating its superiority.
 
+## Denoising Process Demonstration 🎥
+
+The following videos demonstrate the **denoising process** in text-to-motion generation, showcasing the transformation from random noise to high-quality motion results:
+
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <video src="Free-T2M/Visualization/Noise/21_0.mp4" width="200" controls></video>
+  <video src="Free-T2M/Visualization/Noise/21_10.mp4" width="200" controls></video>
+  <video src="Free-T2M/Visualization/Noise/21_20.mp4" width="200" controls></video>
+  <video src="Free-T2M/Visualization/Noise/21_30.mp4" width="200" controls></video>
+  <video src="Free-T2M/Visualization/Noise/21_40.mp4" width="200" controls></video>
+  <video src="Free-T2M/Visualization/Noise/21_50.mp4" width="200" controls></video>
+</div>
+
+These videos vividly illustrate how the model incrementally refines motion generation, from random noise (step 0) to complete motion (step 50), highlighting the exceptional performance of **low-frequency consistency guidance** and **semantic consistency mechanisms**. ✨
+
 ## Getting Started 🚀
 
 To begin using Free-T2M with the MDM (Motion Diffusion Model) framework, follow these steps:
