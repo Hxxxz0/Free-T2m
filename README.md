@@ -23,12 +23,12 @@ Free-T2M stands out by integrating advanced frequency-domain techniques with rob
 The following videos demonstrate the **denoising process** in text-to-motion generation, showcasing the transformation from random noise to high-quality motion results:
 
 <div style="display: flex; justify-content: center; gap: 20px;">
-  <video src="Free-T2M/Visualization/Noise/21_0.mp4" width="200" controls></video>
-  <video src="Free-T2M/Visualization/Noise/21_10.mp4" width="200" controls></video>
-  <video src="Free-T2M/Visualization/Noise/21_20.mp4" width="200" controls></video>
-  <video src="Free-T2M/Visualization/Noise/21_30.mp4" width="200" controls></video>
-  <video src="Free-T2M/Visualization/Noise/21_40.mp4" width="200" controls></video>
-  <video src="Free-T2M/Visualization/Noise/21_50.mp4" width="200" controls></video>
+  <video src="Visualization/Noise/21_0.mp4" width="200" controls></video>
+  <video src="Visualization/Noise/Noise/21_10.mp4" width="200" controls></video>
+  <video src="Visualization/Noise/Noise/21_20.mp4" width="200" controls></video>
+  <video src="Visualization/Noise/Noise/21_30.mp4" width="200" controls></video>
+  <video src="Visualization/Noise/Noise/21_40.mp4" width="200" controls></video>
+  <video src="Visualization/Noise/Noise/21_50.mp4" width="200" controls></video>
 </div>
 
 These videos vividly illustrate how the model incrementally refines motion generation, from random noise (step 0) to complete motion (step 50), highlighting the exceptional performance of **low-frequency consistency guidance** and **semantic consistency mechanisms**. ✨
