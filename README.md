@@ -36,6 +36,54 @@ The following videos demonstrate the **denoising process** in text-to-motion gen
 
 These videos vividly illustrate how the model incrementally refines motion generation, from random noise (step 0) to complete motion (step 50), highlighting the exceptional performance of **low-frequency consistency guidance** and **semantic consistency mechanisms**. ✨
 
+
+## Visual Comparison: MDM Ours vs. Baseline 🎬
+
+The following GIFs demonstrate a direct comparison between the **Free-T2M model** and the **MDM baseline**, highlighting the superior performance of Free-T2M in generating more realistic and semantically aligned motions:
+
+<div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+  <div>
+    <p align="center"><b>Ours</b></p>
+    <img src="More_result/MDM/Ours/00.gif" width="200" style="margin: 10px;">
+    <img src="More_result/MDM/Ours/01.gif" width="200" style="margin: 10px;">
+    <img src="More_result/MDM/Ours/02.gif" width="200" style="margin: 10px;">
+  </div>
+  <div>
+    <p align="center"><b>Baseline</b></p>
+    <img src="More_result/MDM/base/00.gif" width="200" style="margin: 10px;">
+    <img src="More_result/MDM/base/01.gif" width="200" style="margin: 10px;">
+    <img src="More_result/MDM/base/02.gif" width="200" style="margin: 10px;">
+  </div>
+</div>
+
+This comparison clearly demonstrates how Free-T2M produces more semantically aligned and visually appealing motion sequences compared to the MDM baseline. 🌟
+
+---
+
+## Visual Comparison: StableMoFusion Ours vs. Baseline ✨
+
+The following GIFs demonstrate a direct comparison between the **Free-T2M model** and the **StableMoFusion baseline**, showcasing the superior performance of Free-T2M in generating more realistic and semantically aligned motions:
+
+<div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+  <div>
+    <p align="center"><b>Ours</b></p>
+    <img src="More_result/StableMofusion/ours/04.gif" width="200" style="margin: 10px;">
+    <img src="More_result/StableMofusion/ours/03.gif" width="200" style="margin: 10px;">
+    <img src="More_result/StableMofusion/ours/02.gif" width="200" style="margin: 10px;">
+  </div>
+  <div>
+    <p align="center"><b>Baseline</b></p>
+    <img src="More_result/StableMofusion/base/04.gif" width="200" style="margin: 10px;">
+    <img src="More_result/StableMofusion/base/03.gif" width="200" style="margin: 10px;">
+    <img src="More_result/StableMofusion/base/02.gif" width="200" style="margin: 10px;">
+  </div>
+</div>
+
+This comparison clearly demonstrates how Free-T2M produces more semantically aligned and visually appealing motion sequences compared to the StableMoFusion baseline. 🚀
+
+
+
+
 ## Getting Started 🚀
 
 To begin using Free-T2M with the MDM (Motion Diffusion Model) framework, follow these steps:
