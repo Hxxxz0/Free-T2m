@@ -2,6 +2,7 @@
 
 Free-T2M is a cutting-edge diffusion-based framework designed for **text-to-motion generation**. By leveraging **frequency-domain analysis** and **stage-specific consistency losses**, Free-T2M significantly enhances the robustness and precision of motion generation. The model introduces innovative **low-frequency consistency guidance** and **semantic consistency mechanisms**, achieving **state-of-the-art (SOTA)** performance across various benchmarks. 🌟
 
+![Framework Diagram](Visualization/Figure/Frameworok.png)
 ## Key Features 🛠️
 
 - **Frequency-Domain Analysis**: Incorporates low-frequency components to improve semantic alignment during the denoising process, ensuring smoother and more natural motion generation. 📊
