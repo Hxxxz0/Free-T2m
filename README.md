@@ -28,7 +28,7 @@ Free-T2M integrates advanced frequency-domain techniques and robust consistency 
 
 ## Evaluation Metrics for HumanML3D Dataset
 
-The table below summarizes the evaluation metrics for the HumanML3D dataset. **Red** values indicate the best results, and **Blue** values indicate the second-best results. Metrics include **FID** (lower is better), **R-Precision** (higher is better), and **Diversity** (closer to real motion is better).
+The table below summarizes the evaluation metrics for the HumanML3D dataset. **Red** values indicate the best results, and **Blue** values indicate the second-best results. Metrics include **FID** (lower is better), **R-Precision** (higher is better).
 
 <div align="center">
 
