@@ -94,60 +94,26 @@ This horizontal layout with a scrollable table makes it easier to view the progr
 The following table compares Free-T2M with the MDM baseline. Free-T2M produces more realistic and semantically aligned motions:
 
 <div align="center">
-  <style>
-    .gif-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      overflow-y: auto;
-      height: 220px; /* 设置容器高度，控制一次显示的组数 */
-      border: 1px solid #ccc; /* 可选：添加边框 */
-      padding: 10px; /* 可选：添加内边距 */
-    }
-    .gif-group {
-      margin-bottom: 20px; /* 组与组之间的间距 */
-    }
-  </style>
-
-  <div class="gif-container">
-    <div class="gif-group">
-      <table>
-        <tr>
-          <th><b>Ours</b></th>
-          <th><b>Baseline</b></th>
-        </tr>
-        <tr>
-          <td><img src="More_result/MDM/Ours/00.gif" width="200"></td>
-          <td><img src="More_result/MDM/base/00.gif" width="200"></td>
-        </tr>
-      </table>
-    </div>
-    <div class="gif-group">
-      <table>
-        <tr>
-          <th><b>Ours</b></th>
-          <th><b>Baseline</b></th>
-        </tr>
-        <tr>
-          <td><img src="More_result/MDM/Ours/01.gif" width="200"></td>
-          <td><img src="More_result/MDM/base/01.gif" width="200"></td>
-        </tr>
-      </table>
-    </div>
-    <div class="gif-group">
-      <table>
-        <tr>
-          <th><b>Ours</b></th>
-          <th><b>Baseline</b></th>
-        </tr>
-        <tr>
-          <td><img src="More_result/MDM/Ours/02.gif" width="200"></td>
-          <td><img src="More_result/MDM/base/02.gif" width="200"></td>
-        </tr>
-      </table>
-    </div>
-  </div>
+  <table>
+    <tr>
+      <th><b>Ours</b></th>
+      <th><b>Baseline</b></th>
+    </tr>
+    <tr>
+      <td><img src="More_result/MDM/Ours/00.gif" width="200"></td>
+      <td><img src="More_result/MDM/base/00.gif" width="200"></td>
+    </tr>
+    <tr>
+      <td><img src="More_result/MDM/Ours/01.gif" width="200"></td>
+      <td><img src="More_result/MDM/base/01.gif" width="200"></td>
+    </tr>
+    <tr>
+      <td><img src="More_result/MDM/Ours/02.gif" width="200"></td>
+      <td><img src="More_result/MDM/base/02.gif" width="200"></td>
+    </tr>
+  </table>
 </div>
+加个下拉条，一次显示一组
 
 ---
 
