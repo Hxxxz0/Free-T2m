@@ -54,8 +54,6 @@ The table below summarizes the evaluation metrics for the HumanML3D dataset. **R
 ### Notes:
 - **FID ↓**: Lower values indicate better performance.
 - **R-Precision ↑**: Higher values (top1, top2, top3) indicate better alignment between text prompts and generated motion.
-- **Diversity →**: Higher values indicate the generated motions are closer to the diversity of real human motion.
-
 This table highlights the **SOTA performance** of Free-T2M, particularly with **Free-StableMoFusion**, across all metrics.
 
 ---
