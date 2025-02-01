@@ -1,5 +1,3 @@
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/free-t2m-frequency-enhanced-text-to-motion/motion-synthesis-on-kit-motion-language)](https://paperswithcode.com/sota/motion-synthesis-on-kit-motion-language?p=free-t2m-frequency-enhanced-text-to-motion)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/free-t2m-frequency-enhanced-text-to-motion/motion-synthesis-on-humanml3d)](https://paperswithcode.com/sota/motion-synthesis-on-humanml3d?p=free-t2m-frequency-enhanced-text-to-motion)
 # Free-T2M: Frequency-Enhanced Text-to-Motion Diffusion Model 🚀
 
 Free-T2M is a state-of-the-art framework for **text-to-motion generation**, introducing **frequency-domain analysis** and **stage-specific consistency losses**. By focusing on low-frequency semantic alignment and fine-grained motion details, Free-T2M delivers unmatched performance across benchmarks. 🌟
