@@ -179,6 +179,4 @@ The table below highlights the superior performance of Free-T2M over the StableM
 
 Feel free to explore the repository and contribute to shaping the future of motion generation. Together, let’s redefine possibilities in text-to-motion generation! 🚀✨
 
-## Star History ✨
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Hxxxz0/Free-T2m&type=Date)](https://star-history.com/#Hxxxz0/Free-T2m&Date)
